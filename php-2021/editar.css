@@ -1,0 +1,227 @@
+header {
+    margin-top: 1px;
+}
+
+h1 {
+    font-size: calc(10px);
+    line-height: calc(10px + 10);
+   /* text-shadow: 0 0 5px #b3e293, 0 0 15px #e2dacb, 0 0 20px #111ed6, 0 0 40px #4e4d4b, 0 0 60px #411919, 0 0 10px #194caa, 0 0 98px #aef508;*/
+    color: #0c0c0c;
+    font-family: "arial", cursive;
+    text-align: center;
+   
+}
+
+@-webkit-keyframes blink {
+    20%,
+    24%,
+    55% {
+        color: #111;
+        text-shadow: none;
+    }
+    0%,
+    19%,
+    21%,
+    23%,
+    25%,
+    54%,
+    56%,
+    100% {
+       /* text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;*/
+        color: #fff6a9;
+    }
+}
+
+@keyframes blink {
+    20%,
+    24%,
+    55% {
+        color: #111;
+        text-shadow: none;
+    }
+    0%,
+    19%,
+    21%,
+    23%,
+    25%,
+    54%,
+    56%,
+    100% {
+       /* text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;*/
+        color: #fff6a9;
+    }
+}
+
+h2 {
+    color: #ffffff;
+    text-align: center;
+}
+
+body {
+    background-color: #111;
+    background-image: url(fondo2.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+a:-webkit-any-link {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    width: 100px;
+    /*margin: 5px;
+    margin-top: 3px;*/
+    border: color white 3px;
+}
+
+#btx1{
+    margin-bottom: 0%;
+    font-size: 13px;
+    width: 45px;
+    margin-left: 40%;
+    margin-top: 0%;
+    background-color: #5F5654;
+    box-shadow: 50px 13px 37px #000;
+    color: #fff;
+   
+}
+
+#btx2{
+    margin-bottom: 0%;
+    width: 45px;
+    font-size: 13px;
+    margin-left: 40%;
+    margin-top: 0%;
+    background-color: #5F5654;
+    box-shadow: 50px 13px 37px #000;
+    color: #fff;
+}
+
+
+button {
+    font-size: 20px;
+    background-color: #5F5654;
+    box-shadow: 50px 13px 37px #000;
+    color: #fff;
+    width: 100px;
+    margin: 46px;
+    margin-top: 40px;
+    border: color white 3px;
+}
+
+form {
+    box-shadow: 10px 13px 37px #000;
+    padding: 50px 20px;
+    margin: calc(25% + 90px);
+    margin-top: 0px;
+    padding-top: 28px;
+    margin-bottom: 30px
+}
+
+input {
+    background-color: transparent;
+    width: calc(100% - 20px);
+    padding: 9px;
+    margin: auto;
+    margin-top: 12px;
+    font-size: 16px;
+}
+
+#detalle {
+    background-color: transparent;
+    width: calc(100% - 20px);
+    padding: 9px;
+    margin: auto;
+    margin-top: 12px;
+    font-size: 16px;
+}    
+
+input[type='submit'] {
+    background-color: #3B3737;
+    box-shadow: 10px 13px 37px #000;
+    color: #000;
+    width: calc(50% - 20px);
+    margin: 0 30%;
+    margin-top: 30px;
+    border: color white 3px;
+}
+
+#contacto>form>input {
+    font-size: 20px;
+    color: rgb(14, 27, 212);
+}
+
+h3 {
+    display: block;
+    text-align: center;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+body>div {
+    font-style: color: white;
+    background-color: transparent;
+    width:calc(100% - 20px);
+    padding:9px;
+    margin:auto;
+    margin-top:12px;
+    font-size:16px;
+}
+
+body>div>div:nth-child(2)>table>tbody>tr:nth-child(1) {
+    color: white;
+}
+
+#placeholder {
+    color: white;
+}
+
+#dominio,
+#vehiculo,
+#nombre,
+#tel {
+    color: rgb(94, 17, 17);
+}
+
+body>div>div:nth-child(2)>table>tbody {
+    color: white;
+}
+
+body>div>div:nth-child(2) {
+    color: white;
+    text-align: center;
+}
+
+body>div>div:nth-child(2)>table {
+    width: calc(80% - 20px);
+    margin-left: 110px;
+}
+
+#usuario {
+    background-color: transparent;
+    width: calc(100% - 20px);
+    padding: 9px;
+    margin: auto;
+    margin-top: 12px;
+    font-size: 16px;
+}
+
+body>h2 {
+    color: red;
+}
+
+#placeholder {
+    color: whitesmoke;
+}
+
+#detalle{
+    color: whitesmoke;
+    background-color: rgb(37, 36, 36);
+}
+
